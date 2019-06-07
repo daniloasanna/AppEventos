@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#696969">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nome"
+            android:hint="   Nome do Evento"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittextshape"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/local"
+            android:hint="   Local do Evento"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittextshape"/>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hora"
+            android:hint="   Horário do Evento"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittextshape"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/data"
+            android:hint="   Data do Evento"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/edittextshape"/>
+
+        <Button
+            android:id="@+id/btsave"
+            android:layout_width="230dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+
+            android:background="@drawable/buttonshape"
+
+            android:text="Salvar"
+            android:layout_marginTop="200dp"
+            android:textColor="#000000"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/btlist"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:background="@drawable/buttonshape"
+            android:layout_marginTop="30dp"
+            android:text="Lista"
+            android:textColor="#000000"
+            android:textSize="25dp" />
+
+    </LinearLayout>
+</ScrollView>
